@@ -18,7 +18,7 @@ namespace Textanalysis
         {
             public override Task ProcessHttpRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
             {
-                request.Headers.Add("Ocp-Apim-Subscription-Key", "ec7024176bd641dbbbed9b42f0e10ba2");
+                request.Headers.Add("Ocp-Apim-Subscription-Key", "xxxxxxx");
                 return base.ProcessHttpRequestAsync(request, cancellationToken);
             }
         }
